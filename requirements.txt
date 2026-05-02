@@ -3,6 +3,5 @@ uvicorn
 numpy
 opencv-python-headless
 tensorflow==2.13.0
-tensorflow
 python-multipart
 mtcnn
