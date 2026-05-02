@@ -9,7 +9,7 @@ import uvicorn
 app = FastAPI()
 
 # load model once
-model = load_model("model_final.h5", compile=False)
+model = load_model("model_final.h5", compile=False ,  safe_mode=False)
 
 
 UPLOAD_FOLDER = "uploads"
