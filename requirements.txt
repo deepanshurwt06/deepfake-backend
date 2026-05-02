@@ -2,7 +2,7 @@ fastapi
 uvicorn
 numpy==1.23.5
 opencv-python-headless
-tensorflow==2.10.0
+tensorflow==2.13.0
 python-multipart
 mtcnn
 setuptools
