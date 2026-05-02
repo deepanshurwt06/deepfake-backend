@@ -9,7 +9,8 @@ import uvicorn
 app = FastAPI()
 
 # load model once
-model = load_model("model_v2.keras")
+model = load_model("model_v2.keras", compile=False)
+
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
